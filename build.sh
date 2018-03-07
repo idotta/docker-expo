@@ -1,1 +1,1 @@
-docker image build -t idotta/phonegap .
+docker image build -t idotta/expo .
