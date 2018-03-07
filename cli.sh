@@ -7,5 +7,6 @@ docker run \
        --privileged \
        -v $HOST_DIR:/data \
        -e NODE_ENV=production \
-       -it
-       $CONTAINER_NAME
+       -it \
+       $CONTAINER_NAME \
+       bash
